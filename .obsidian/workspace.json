@@ -35,8 +35,7 @@
               "title": "README"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -184,9 +183,9 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "ac449682b88a6115",
+  "active": "b3357e261ebe7f74",
   "lastOpenFiles": [
-    "README.md",
-    "BootCamps/GFT_STARTER/EDICAO_7/README.md"
+    "BootCamps/GFT_STARTER/EDICAO_7/README.md",
+    "README.md"
   ]
 }
