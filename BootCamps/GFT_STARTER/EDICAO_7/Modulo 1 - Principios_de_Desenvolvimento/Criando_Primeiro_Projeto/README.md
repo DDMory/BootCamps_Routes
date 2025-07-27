@@ -22,4 +22,4 @@ Vale resaltar que uma pasta extra será criada caso você tenha a extensão C# i
 --- 
 ### Para criar compilar o projeto.
 
-Feita os passsos da etapa de criação do projeto, para compilarmos esse projeto via linha de comando, precisando digitar `dotnet run` na mesma pasta em que o projeto foi criado.
+Feita os passos da etapa de criação do projeto, para compilarmos esse projeto via linha de comando, precisando digitar `dotnet run` na mesma pasta em que o projeto foi criado.
