@@ -23,11 +23,19 @@ O **compilador** é um programa que realiza a conversão de um código de alto n
 Ao compilar seu projeto, o compilador do .NET realiza um processo de compilação em todas as classes em seu código, gerando um *Código Intermediário (IL Code)* que é independente da maquina e nos formatos `.exe` e `.dll`, os arquivos gerados estão são enviados para o *JIT COMPILER* que vai realizar a tradução do código intermediário para um formato de arquitetura entendível para sua maquina para então executar o código.
 
 #### *Compilador X Transpilador*
+---
 
 - **Compilador**: Programa que realiza a conversão de uma linguagem de alto nível para uma de baixo nível.
 - **Transpilador**: É a conversão de uma linguagem implementada para outro. Uma linguagem de alto nível é convertida para outra linguagem de alto nível
 
-## *Conceitos*
+# Introdução as IDEs e Configuração de Ambiente .NET
+---
+
+## Integrated Development Environment (IDE)
+---
+Uma ***Integrated Development Environment (IDE)*** é um software que facilita e integra diversas facilidades para escrita e depuração de código. Existe diversas IDEs que suportam C# e que servem para o desenvolvimento em .NET ( Visual Studio, Visual Studio Code, Rider, etc. ).
+
+# *Conceitos*
 
 - ***Linguagem Compilada***: Linguagens em que o código fonte é traduzido para o código de maquina
 - ***Linguagem Interpretada:*** Linguagens que fazem a leitura e a interpretação diretamente do código fonte, não há um compilador e portanto não será gerado um binário.

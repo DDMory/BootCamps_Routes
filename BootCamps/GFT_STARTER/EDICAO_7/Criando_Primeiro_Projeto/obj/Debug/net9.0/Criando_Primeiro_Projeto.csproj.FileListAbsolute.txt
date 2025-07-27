@@ -1,0 +1,15 @@
+C:\Users\doulgas\Desktop\Douglas\BootCamps\GFT_STARTER\EDICAO_7\Criando_Primeiro_Projeto\bin\Debug\net9.0\Criando_Primeiro_Projeto.exe
+C:\Users\doulgas\Desktop\Douglas\BootCamps\GFT_STARTER\EDICAO_7\Criando_Primeiro_Projeto\bin\Debug\net9.0\Criando_Primeiro_Projeto.deps.json
+C:\Users\doulgas\Desktop\Douglas\BootCamps\GFT_STARTER\EDICAO_7\Criando_Primeiro_Projeto\bin\Debug\net9.0\Criando_Primeiro_Projeto.runtimeconfig.json
+C:\Users\doulgas\Desktop\Douglas\BootCamps\GFT_STARTER\EDICAO_7\Criando_Primeiro_Projeto\bin\Debug\net9.0\Criando_Primeiro_Projeto.dll
+C:\Users\doulgas\Desktop\Douglas\BootCamps\GFT_STARTER\EDICAO_7\Criando_Primeiro_Projeto\bin\Debug\net9.0\Criando_Primeiro_Projeto.pdb
+C:\Users\doulgas\Desktop\Douglas\BootCamps\GFT_STARTER\EDICAO_7\Criando_Primeiro_Projeto\obj\Debug\net9.0\Criando_Primeiro_Projeto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\doulgas\Desktop\Douglas\BootCamps\GFT_STARTER\EDICAO_7\Criando_Primeiro_Projeto\obj\Debug\net9.0\Criando_Primeiro_Projeto.AssemblyInfoInputs.cache
+C:\Users\doulgas\Desktop\Douglas\BootCamps\GFT_STARTER\EDICAO_7\Criando_Primeiro_Projeto\obj\Debug\net9.0\Criando_Primeiro_Projeto.AssemblyInfo.cs
+C:\Users\doulgas\Desktop\Douglas\BootCamps\GFT_STARTER\EDICAO_7\Criando_Primeiro_Projeto\obj\Debug\net9.0\Criando_Primeiro_Projeto.csproj.CoreCompileInputs.cache
+C:\Users\doulgas\Desktop\Douglas\BootCamps\GFT_STARTER\EDICAO_7\Criando_Primeiro_Projeto\obj\Debug\net9.0\Criando_Primeiro_Projeto.sourcelink.json
+C:\Users\doulgas\Desktop\Douglas\BootCamps\GFT_STARTER\EDICAO_7\Criando_Primeiro_Projeto\obj\Debug\net9.0\Criando_Primeiro_Projeto.dll
+C:\Users\doulgas\Desktop\Douglas\BootCamps\GFT_STARTER\EDICAO_7\Criando_Primeiro_Projeto\obj\Debug\net9.0\refint\Criando_Primeiro_Projeto.dll
+C:\Users\doulgas\Desktop\Douglas\BootCamps\GFT_STARTER\EDICAO_7\Criando_Primeiro_Projeto\obj\Debug\net9.0\Criando_Primeiro_Projeto.pdb
+C:\Users\doulgas\Desktop\Douglas\BootCamps\GFT_STARTER\EDICAO_7\Criando_Primeiro_Projeto\obj\Debug\net9.0\Criando_Primeiro_Projeto.genruntimeconfig.cache
+C:\Users\doulgas\Desktop\Douglas\BootCamps\GFT_STARTER\EDICAO_7\Criando_Primeiro_Projeto\obj\Debug\net9.0\ref\Criando_Primeiro_Projeto.dll
