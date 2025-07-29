@@ -14,3 +14,5 @@ Console.WriteLine("saudação: " + saudação);
 Console.WriteLine("Quantidade: " + quantidade);
 Console.WriteLine($"Preço: RS {preco}");
 Console.WriteLine("Valor da " + $"Variavel {condicao}");
+
+DateTime horario = DateTime.Now;
