@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BootCamps/GFT_STARTER/EDICAO_7/Modulo 2 - Sintaxe_Basica/Sintaxe_Identação/README.md",
+                "file": "BootCamps/GFT_STARTER/EDICAO_7/Modulo 2 - Sintaxe_Basica/Array_e_Listas/README.md",
                 "mode": "source",
                 "source": false
               },
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "11e0a0023c8ae7b5",
@@ -170,20 +171,26 @@
   },
   "active": "ac449682b88a6115",
   "lastOpenFiles": [
-    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 2 - Sintaxe_Basica/Sintaxe_Identação/obj/Debug/net9.0/Sintaxe_Identação.csproj.FileListAbsolute.txt",
-    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 2 - Sintaxe_Basica/Sintaxe_Identação/bin/Debug/net9.0/Sintaxe_Identação.pdb",
-    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 2 - Sintaxe_Basica/Sintaxe_Identação/obj/Debug/net9.0/ref/Sintaxe_Identação.dll",
-    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 2 - Sintaxe_Basica/Sintaxe_Identação/bin/Debug/net9.0/Sintaxe_Identação.dll",
-    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 2 - Sintaxe_Basica/Sintaxe_Identação/bin/Debug/net9.0/Sintaxe_Identação.runtimeconfig.json",
-    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 2 - Sintaxe_Basica/Sintaxe_Identação/obj/Debug/net9.0/Sintaxe_Identação.genruntimeconfig.cache",
-    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 2 - Sintaxe_Basica/Sintaxe_Identação/bin/Debug/net9.0/Sintaxe_Identação.deps.json",
-    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 2 - Sintaxe_Basica/Sintaxe_Identação/bin/Debug/net9.0/Sintaxe_Identação.exe",
-    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 2 - Sintaxe_Basica/Sintaxe_Identação/obj/Debug/net9.0/apphost.exe",
-    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 2 - Sintaxe_Basica/Sintaxe_Identação/obj/Debug/net9.0/refint/Sintaxe_Identação.dll",
-    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 2 - Sintaxe_Basica/Sintaxe_Identação/obj/Debug/net9.0/Sintaxe_Identação.pdb",
+    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 2 - Sintaxe_Basica/Array_e_Listas/bin/Debug/net9.0/Array_e_Listas.pdb",
+    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 2 - Sintaxe_Basica/Array_e_Listas/obj/Debug/net9.0/ref/Array_e_Listas.dll",
+    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 2 - Sintaxe_Basica/Array_e_Listas/bin/Debug/net9.0/Array_e_Listas.dll",
+    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 2 - Sintaxe_Basica/Array_e_Listas/bin/Debug/net9.0/Array_e_Listas.runtimeconfig.json",
+    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 2 - Sintaxe_Basica/Array_e_Listas/obj/Debug/net9.0/Array_e_Listas.genruntimeconfig.cache",
+    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 2 - Sintaxe_Basica/Array_e_Listas/bin/Debug/net9.0/Array_e_Listas.deps.json",
+    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 2 - Sintaxe_Basica/Array_e_Listas/bin/Debug/net9.0/Array_e_Listas.exe",
+    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 2 - Sintaxe_Basica/Array_e_Listas/obj/Debug/net9.0/apphost.exe",
+    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 2 - Sintaxe_Basica/Array_e_Listas/obj/Debug/net9.0/refint/Array_e_Listas.dll",
+    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 2 - Sintaxe_Basica/Array_e_Listas/obj/Debug/net9.0/Array_e_Listas.pdb",
+    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 2 - Sintaxe_Basica/Array_e_Listas/obj/Debug/net9.0/Array_e_Listas.dll",
+    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 2 - Sintaxe_Basica/Estruturas_de_Repetição/README.md",
+    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 2 - Sintaxe_Basica/Organização_de_Programa/README.md",
+    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 2 - Sintaxe_Basica/Array_e_Listas/README.md",
+    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 2 - Sintaxe_Basica/Operadores_Aritmeticos/README.md",
+    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 2 - Sintaxe_Basica/Tipos_Operadores/README.md",
+    "Sem título.md",
+    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 2 - Sintaxe_Basica/Sintaxe_Identação/README.md",
     "BootCamps/GFT_STARTER/EDICAO_7/Modulo 1 - Principios_de_Desenvolvimento/Criando_Primeiro_Projeto/README.md",
     "BootCamps/GFT_STARTER/EDICAO_7/Modulo 1 - Principios_de_Desenvolvimento/README.md",
-    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 2 - Sintaxe_Basica/Sintaxe_Identação/README.md",
     "BootCamps/GFT_STARTER/EDICAO_7/Modulo 1 - Principios de Desenvolvimento/Criando_Primeiro_Projeto/README.md",
     "BootCamps/GFT_STARTER/EDICAO_7/Modulo 1 - Principios de Desenvolvimento/README.md",
     "BootCamps/GFT_STARTER/EDICAO_7/Modulo 1 -/Criando_Primeiro_Projeto/README.md",
