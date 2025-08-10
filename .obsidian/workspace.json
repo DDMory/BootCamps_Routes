@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BootCamps/GFT_STARTER/EDICAO_7/Modulo 3 - Programação_Orientada_Objetos/Manipulando_Vetores/README.md",
-                "mode": "source",
+                "file": "BootCamps/GFT_STARTER/EDICAO_7/Modulo 3 - Programação_Orientada_Objetos/Colecoes_Excecoes/README.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "11e0a0023c8ae7b5",
@@ -170,17 +171,20 @@
   },
   "active": "ac449682b88a6115",
   "lastOpenFiles": [
+    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 3 - Programação_Orientada_Objetos/Colecoes_Excecoes/models/ExplorandoExcecao.cs",
+    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 3 - Programação_Orientada_Objetos/Colecoes_Excecoes/models",
+    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 3 - Programação_Orientada_Objetos/Colecoes_Excecoes/obj/Debug/net9.0/Colecoes_Excecoes.csproj.FileListAbsolute.txt",
+    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 3 - Programação_Orientada_Objetos/Colecoes_Excecoes/bin/Debug/net9.0/Colecoes_Excecoes.pdb",
+    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 3 - Programação_Orientada_Objetos/Colecoes_Excecoes/obj/Debug/net9.0/ref/Colecoes_Excecoes.dll",
+    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 3 - Programação_Orientada_Objetos/Colecoes_Excecoes/bin/Debug/net9.0/Colecoes_Excecoes.dll",
+    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 3 - Programação_Orientada_Objetos/Colecoes_Excecoes/bin/Debug/net9.0/Colecoes_Excecoes.runtimeconfig.json",
+    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 3 - Programação_Orientada_Objetos/Colecoes_Excecoes/obj/Debug/net9.0/Colecoes_Excecoes.genruntimeconfig.cache",
+    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 3 - Programação_Orientada_Objetos/Colecoes_Excecoes/bin/Debug/net9.0/Colecoes_Excecoes.deps.json",
+    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 3 - Programação_Orientada_Objetos/Colecoes_Excecoes/bin/Debug/net9.0/Colecoes_Excecoes.exe",
+    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 3 - Programação_Orientada_Objetos/Colecoes_Excecoes/obj/Debug/net9.0/apphost.exe",
+    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 3 - Programação_Orientada_Objetos/Manipulando_Vetores/README.md",
+    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 3 - Programação_Orientada_Objetos/Colecoes_Excecoes/README.md",
     "BootCamps/GFT_STARTER/EDICAO_7/Modulo 3 - Programação_Orientada_Objetos/Propriedades_Metodos_Construtores/README.md",
-    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 3 - Programação_Orientada_Objetos/Propriedades_Metodos_Construtores/bin/Debug/net9.0/Propriedades_Metodos_Construtores.deps.json",
-    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 3 - Programação_Orientada_Objetos/Propriedades_Metodos_Construtores/bin/Debug/net9.0/Propriedades_Metodos_Construtores.runtimeconfig.json",
-    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 3 - Programação_Orientada_Objetos/Propriedades_Metodos_Construtores/obj/Debug/net9.0/Propriedades_Metodos_Construtores.csproj.FileListAbsolute.txt",
-    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 3 - Programação_Orientada_Objetos/Propriedades_Metodos_Construtores/obj/Debug/net9.0/Propriedades_Metodos_Construtores.genruntimeconfig.cache",
-    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 3 - Programação_Orientada_Objetos/Propriedades_Metodos_Construtores/models/Curso.cs",
-    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 3 - Programação_Orientada_Objetos/Propriedades_Metodos_Construtores/obj/Debug/net9.0/ref/Propriedades_Metodos_Construtores.dll",
-    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 3 - Programação_Orientada_Objetos/Propriedades_Metodos_Construtores/bin/Debug/net9.0/Propriedades_Metodos_Construtores.pdb",
-    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 3 - Programação_Orientada_Objetos/Propriedades_Metodos_Construtores/obj/Debug/net9.0/apphost.exe",
-    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 3 - Programação_Orientada_Objetos/Propriedades_Metodos_Construtores/obj/Debug/net9.0/refint/Propriedades_Metodos_Construtores.dll",
-    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 3 - Programação_Orientada_Objetos/Propriedades_Metodos_Construtores/obj/Debug/net9.0/Propriedades_Metodos_Construtores.pdb",
     "BootCamps/GFT_STARTER/EDICAO_7/Modulo 2 - Sintaxe_Basica/Tipos_Operadores/README.md",
     "BootCamps/GFT_STARTER/EDICAO_7/Modulo 2 - Sintaxe_Basica/Array_e_Listas/README.md",
     "BootCamps/GFT_STARTER/EDICAO_7/Modulo 2 - Sintaxe_Basica/Estruturas_de_Repetição/README.md",

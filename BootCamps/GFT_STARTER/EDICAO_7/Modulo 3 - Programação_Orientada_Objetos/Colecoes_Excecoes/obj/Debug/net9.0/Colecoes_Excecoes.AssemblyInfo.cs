@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Manipulando_Vetores")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Colecoes_Excecoes")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2a0162ae09eacc681c56efd8676e83db37285880")]
-[assembly: System.Reflection.AssemblyProductAttribute("Manipulando_Vetores")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Manipulando_Vetores")]
+[assembly: System.Reflection.AssemblyProductAttribute("Colecoes_Excecoes")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Colecoes_Excecoes")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.

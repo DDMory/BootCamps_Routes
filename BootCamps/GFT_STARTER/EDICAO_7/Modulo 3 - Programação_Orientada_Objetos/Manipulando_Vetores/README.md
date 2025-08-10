@@ -67,3 +67,4 @@ decimal valor = 3.32M;
 console.WriteLine(valor.ToString("C2")); //Daus casas deciamis
 console.WriteLine(valor.ToString("C8")); //Oito casas deciamis
 ```
+--- 
