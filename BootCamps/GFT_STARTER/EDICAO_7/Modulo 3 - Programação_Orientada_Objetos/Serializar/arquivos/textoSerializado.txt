@@ -1,0 +1,5 @@
+{
+  "Id": 1,
+  "Produto": "Refrigerante",
+  "Preco": 12.32
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "Id": 1,
+    "Nome_Produto": "Refrigerante",
+    "Preco": 12.32,
+    "DataVenda": "2025-08-11T22:07:07.2858662-03:00"
+  },
+  {
+    "Id": 2,
+    "Nome_Produto": "Pipoca-doce",
+    "Preco": 7.5,
+    "DataVenda": "2025-08-11T22:07:07.3077629-03:00"
+  },
+  {
+    "Id": 3,
+    "Nome_Produto": "Caderno",
+    "Preco": 23.32,
+    "DataVenda": "2025-08-11T22:07:07.3077662-03:00"
+  }
+]
