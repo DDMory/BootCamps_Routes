@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Abstracao_Encapsulamento")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Abstratas_Interfaces")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ef0818ec813ae09f39049fea39bbd7e49738b286")]
-[assembly: System.Reflection.AssemblyProductAttribute("Abstracao_Encapsulamento")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Abstracao_Encapsulamento")]
+[assembly: System.Reflection.AssemblyProductAttribute("Abstratas_Interfaces")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Abstratas_Interfaces")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.
