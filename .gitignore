@@ -1,6 +1,6 @@
 # Created by https://www.toptal.com/developers/gitignore/api/obsidian,windows,linux,macos,dotnetcore,visualstudiocode
 # Edit at https://www.toptal.com/developers/gitignore?templates=obsidian,windows,linux,macos,dotnetcore,visualstudiocode
-
+/BootCamps\GFT_STARTER\EDICAO_7\Modulo 4 - APIs\Minimals\MyMinimalApi\appsettings.json
 ### DotnetCore ###
 # .NET Core build folders
 bin/
