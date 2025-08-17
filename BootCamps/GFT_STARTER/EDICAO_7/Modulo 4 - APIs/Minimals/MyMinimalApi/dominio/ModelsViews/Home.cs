@@ -8,6 +8,6 @@ namespace MyMinimalApi.dominio.ModelsViews
     public struct Home
     {
         public string Mensagem { get => "BEM VINDO À MINHA API DE VEICULOS -  MINIMAL API"; }
-        public string Documentacao { get => "http://localhost:5233/swagger"; }
+        public string Documentacao { get => "/swagger"; }
     }
 }

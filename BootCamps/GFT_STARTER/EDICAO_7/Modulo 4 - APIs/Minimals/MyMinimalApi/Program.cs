@@ -49,9 +49,33 @@ app.MapPost("/administradores/login", ([FromBody] LoginDTO loginDTO, IAdministra
 #endregion Administradores
 
 #region Veiculos
+
+ErrosValidate validarDTO(VeiculoDTO veiculoDTO)
+{
+    var validacoes = new ErrosValidate
+    {
+        Mensagens  = new List<string>()
+    };
+
+    if (string.IsNullOrEmpty(veiculoDTO.Nome))
+        validacoes.Mensagens.Add("O nome não pode ficar em branco!");
+    if (string.IsNullOrEmpty(veiculoDTO.Marca))
+        validacoes.Mensagens.Add("O marca não pode ficar em branco!");
+    if (veiculoDTO.Ano < 1950)
+        validacoes.Mensagens.Add("Veiculo antigo! [Min > 1950]");
+
+    return validacoes;
+}
+
 #region Post
 app.MapPost("/Veiculos", ([FromBody] VeiculoDTO veiculoDTO, IVeiculosServices VeiculosService) =>
 {
+
+    
+    var validacoes = validarDTO(veiculoDTO);
+    if (validacoes.Mensagens.Count() > 0)
+        return Results.BadRequest(validacoes);
+
     var veiculo = new Veiculo
     {
         Nome = veiculoDTO.Nome,
@@ -90,8 +114,13 @@ app.MapGet("/Veiculos/{Id}", ([FromRoute] int Id, IVeiculosServices veiculosServ
 app.MapPut("/Veiculos/{Id}", ([FromRoute] int Id, VeiculoDTO veiculoDTO,IVeiculosServices veiculosServices) =>
 {
     var veiculo = veiculosServices.BuscarPorId(Id);
-
     if (veiculo == null) return Results.NotFound();
+
+    var validacoes = validarDTO(veiculoDTO);
+    if (validacoes.Mensagens.Count() > 0)
+        return Results.BadRequest(validacoes);
+
+    
 
     veiculo.Nome = veiculoDTO.Nome;
     veiculo.Marca = veiculoDTO.Marca;
@@ -102,6 +131,19 @@ app.MapPut("/Veiculos/{Id}", ([FromRoute] int Id, VeiculoDTO veiculoDTO,IVeiculo
     return Results.Ok(veiculo);
 }).WithTags("Veiculos");
 #endregion Put
+
+#region Delete
+app.MapDelete("/Veiculos/{Id}", ([FromRoute] int Id,IVeiculosServices veiculosServices) =>
+{
+    var veiculo = veiculosServices.BuscarPorId(Id);
+
+    if (veiculo == null) return Results.NotFound();
+
+    veiculosServices.ApagarVeiculo(veiculo);
+
+    return Results.NoContent();
+}).WithTags("Veiculos");
+#endregion Delete
 
 #endregion Veiculos
 
