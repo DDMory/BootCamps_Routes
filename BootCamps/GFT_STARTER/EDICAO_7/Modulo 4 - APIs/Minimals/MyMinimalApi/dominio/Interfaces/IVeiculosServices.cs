@@ -8,8 +8,8 @@ namespace MyMinimalApi.dominio.Interfaces
 {
     public interface IVeiculosServices
     {
-        List<Veiculo> ListarVeiculos(int pagina = 1, string? nome = null, string? marca = null);
-        Veiculo? BuscarPorId(int Id);
+        List<Veiculo> ListarVeiculos(int? pagina, string? nome = null, string? marca = null);
+        Veiculo BuscarPorId(int Id);
         void SalvarVeiculo(Veiculo veiculo);
         void AtualizarVeiculo(Veiculo veiculo);
 
