@@ -27,8 +27,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BootCamps/GFT_STARTER/EDICAO_7/Modulo 4 - APIs/README.md",
-                "mode": "source",
+                "file": "BootCamps/GFT_STARTER/EDICAO_7/Modulo 4 - APIs/Minimals/README.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -185,17 +185,19 @@
   },
   "active": "2d670bc0d2572b3c",
   "lastOpenFiles": [
-    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 4 - APIs/MyApi/MyApi.sln",
-    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 4 - APIs/MyApi/Controllers/UsuarioController.cs",
-    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 4 - APIs/MyApi/bin/Debug/net9.0/Namotion.Reflection.dll",
-    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 4 - APIs/MyApi/models/TodoContext.cs",
-    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 4 - APIs/MyApi/models/TodoItem.cs",
-    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 4 - APIs/MyApi/models",
-    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 4 - APIs/MyApi/obj/Debug/net9.0/MyApi.csproj.FileListAbsolute.txt",
-    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 4 - APIs/MyApi/bin/Debug/net9.0/MyApi.pdb",
-    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 4 - APIs/MyApi/obj/Debug/net9.0/ref/MyApi.dll",
-    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 4 - APIs/MyApi/bin/Debug/net9.0/MyApi.dll",
-    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 4 - APIs/MyApi/bin/Debug/net9.0/MyApi.runtimeconfig.json",
+    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 4 - APIs/Minimals/MyMinimalApi/infraestrutura/db/DbContexto.cs",
+    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 4 - APIs/Minimals/MyMinimalApi/infraestrutura/db",
+    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 4 - APIs/Minimals/MyMinimalApi/dominio/dto/LoginDTO.cs",
+    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 4 - APIs/Minimals/MyMinimalApi/dominio/dto",
+    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 4 - APIs/Minimals/MyMinimalApi/dominio/DTOs/LoginDTO.cs",
+    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 4 - APIs/Minimals/MyMinimalApi/dominio/DTOs",
+    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 4 - APIs/Minimals/MyMinimalApi/dominio/servicos",
+    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 4 - APIs/Minimals/MyMinimalApi/dominio/entidades",
+    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 4 - APIs/Minimals/MyMinimalApi/dominio",
+    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 4 - APIs/Minimals/MyMinimalApi/infraestrutura",
+    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 4 - APIs/Minimals/MyMinimalApi/infraEstrutura",
+    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 4 - APIs/WebApi/README.md",
+    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 4 - APIs/Minimals/README.md",
     "BootCamps/GFT_STARTER/EDICAO_7/Modulo 3 - Programação_Orientada_Objetos/Abstratas_Interfaces/README.md",
     "BootCamps/GFT_STARTER/EDICAO_7/Modulo 4 - APIs/README.md",
     "BootCamps/GFT_STARTER/EDICAO_7/Modulo 3 - Programação_Orientada_Objetos/Desafios/Desafio2/Imagens/diagrama.png",
@@ -222,8 +224,6 @@
     "BootCamps/GFT_STARTER/EDICAO_7/Modulo 1 -/Criando_Primeiro_Projeto/README.md",
     "BootCamps/GFT_STARTER/EDICAO_7/Modulo 1 -/README.md",
     "BootCamps/GFT_STARTER/EDICAO_7/Criando_Primeiro_Projeto/README.md",
-    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 1/Criando_Primeiro_Projeto/README.md",
-    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 1/README.md",
-    "BootCamps/GFT_STARTER/EDICAO_7/README.md"
+    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 1/Criando_Primeiro_Projeto/README.md"
   ]
 }
