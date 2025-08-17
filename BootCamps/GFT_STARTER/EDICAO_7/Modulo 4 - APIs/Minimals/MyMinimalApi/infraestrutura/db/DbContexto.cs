@@ -16,11 +16,24 @@ namespace MyMinimalApi.infraestrutura.db
         }
         public DbSet<Administrador> Administradores { get; set; } = default;
 
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Administrador>().HasData(
+                new Administrador
+                {
+                    Id = 1,
+                    Email = "administrador@teste.com",
+                    Senha = "123456",
+                    Perfil = "Adm"
+                }
+            );
+        }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             var stringConexao = _configuracaoAppSettings.GetConnectionString("mysql")?.ToString();
 
-            if (!optionsBuilder.IsConfigured){
+            if (!optionsBuilder.IsConfigured)
+            {
                 if (!string.IsNullOrEmpty(stringConexao))
                 {
 
@@ -29,7 +42,7 @@ namespace MyMinimalApi.infraestrutura.db
                         ServerVersion.AutoDetect(stringConexao)
                     );
                 }
-            
+
             }
         }
     }
