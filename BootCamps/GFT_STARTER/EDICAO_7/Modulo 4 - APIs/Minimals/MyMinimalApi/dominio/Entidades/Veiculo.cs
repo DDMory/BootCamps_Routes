@@ -4,26 +4,24 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.EntityFrameworkCore;
 
 namespace MyMinimalApi.dominio.Entidades
 {
-    public class Administrador
+    public class Veiculo
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int Id { get; set; } = default;
+        public int Id { get; set; }
 
         [Required]
-        [StringLength(245)]
-        public string Email { get; set; } = default;
+        [StringLength(150)]
+        public string Nome { get; set; }
 
         [Required]
-        [StringLength(50)]
-        public string Senha { get; set; } = default;
+        [StringLength(100)]
+        public string Marca { get; set; }
 
         [Required]
-        [StringLength(10)]
-        public string Perfil { get; set; } = default;
+        public int Ano { get; set; }
     }
 }
