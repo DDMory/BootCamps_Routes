@@ -35,7 +35,7 @@ var app = builder.Build();
 
 
 #region Home
-app.MapGet("/", () => Results.Json(new Home()));
+app.MapGet("/", () => Results.Json(new Home())).WithTags("Home");
 #endregion Home
 
 #region Administradores
@@ -45,7 +45,7 @@ app.MapPost("/administradores/login", ([FromBody] LoginDTO loginDTO, IAdministra
         return Results.Ok("Login Sucesso!");
     else return Results.Unauthorized();
 
-});
+}).WithTags("Administradores");
 #endregion Administradores
 
 #region Veiculos
@@ -62,16 +62,29 @@ app.MapPost("/Veiculos", ([FromBody] VeiculoDTO veiculoDTO, IVeiculosServices Ve
     VeiculosService.SalvarVeiculo(veiculo);
 
     return Results.Created($"/Veiculo/{veiculo.Id}", veiculo);
-});
+}).WithTags("Veiculos");
 #endregion Post
 
-#region Get
+#region Gets
+#region GetAll
 app.MapGet("/Veiculos", ([FromQuery] int? pagina, IVeiculosServices veiculosServices) =>
 {
     var veiculos = veiculosServices.ListarVeiculos(pagina);
     return Results.Ok(veiculos);
-});
-#endregion Get
+}).WithTags("Veiculos");
+#endregion GetAll
+
+#region GetById
+app.MapGet("/Veiculos/{Id}", ([FromRoute] int Id, IVeiculosServices veiculosServices) =>
+{
+    var veiculo = veiculosServices.BuscarPorId(Id);
+
+    if (veiculo == null) return Results.NotFound();
+
+    return Results.Ok(veiculo);
+}).WithTags("Veiculos");
+#endregion GetById
+#endregion Gets
 
 #endregion Veiculos
 
