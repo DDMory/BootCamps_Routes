@@ -28,7 +28,7 @@
               "type": "markdown",
               "state": {
                 "file": "BootCamps/GFT_STARTER/EDICAO_7/Modulo 4 - APIs/Minimals/README.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -185,6 +185,10 @@
   },
   "active": "2d670bc0d2572b3c",
   "lastOpenFiles": [
+    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 4 - APIs/Minimals/MyMinimalApi/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.dll",
+    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 4 - APIs/Minimals/MyMinimalApi/obj/Debug/net8.0/MyMinimalApi.MvcApplicationPartsAssemblyInfo.cache",
+    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 4 - APIs/Minimals/MyMinimalApi/obj/Debug/net8.0/MyMinimalApi.csproj.FileListAbsolute.txt",
+    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 4 - APIs/Minimals/MyMinimalApi/bin/Debug/net8.0/Microsoft.OpenApi.dll",
     "BootCamps/GFT_STARTER/EDICAO_7/Modulo 4 - APIs/Minimals/MyMinimalApi/dominio/Servicos/VeiculosServices.cs",
     "BootCamps/GFT_STARTER/EDICAO_7/Modulo 4 - APIs/Minimals/MyMinimalApi/dominio/Interfaces/IVeiculosServices.cs",
     "BootCamps/GFT_STARTER/EDICAO_7/Modulo 4 - APIs/Minimals/MyMinimalApi/Migrations/20250817200837_VeiculosMigration.Designer.cs",
@@ -192,10 +196,6 @@
     "BootCamps/GFT_STARTER/EDICAO_7/Modulo 4 - APIs/Minimals/MyMinimalApi/bin/Debug/net8.0/System.Composition.AttributedModel.dll",
     "BootCamps/GFT_STARTER/EDICAO_7/Modulo 4 - APIs/Minimals/MyMinimalApi/bin/Debug/net8.0/System.Composition.Runtime.dll",
     "BootCamps/GFT_STARTER/EDICAO_7/Modulo 4 - APIs/Minimals/MyMinimalApi/bin/Debug/net8.0/System.Composition.Hosting.dll",
-    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 4 - APIs/Minimals/MyMinimalApi/bin/Debug/net8.0/System.Composition.TypedParts.dll",
-    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 4 - APIs/Minimals/MyMinimalApi/bin/Debug/net8.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll",
-    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 4 - APIs/Minimals/MyMinimalApi/bin/Debug/net8.0/Microsoft.CodeAnalysis.CSharp.dll",
-    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 4 - APIs/Minimals/MyMinimalApi/bin/Debug/net8.0/Microsoft.CodeAnalysis.dll",
     "BootCamps/GFT_STARTER/EDICAO_7/Modulo 4 - APIs/WebApi/README.md",
     "BootCamps/GFT_STARTER/EDICAO_7/Modulo 4 - APIs/Minimals/README.md",
     "BootCamps/GFT_STARTER/EDICAO_7/Modulo 3 - Programação_Orientada_Objetos/Abstratas_Interfaces/README.md",

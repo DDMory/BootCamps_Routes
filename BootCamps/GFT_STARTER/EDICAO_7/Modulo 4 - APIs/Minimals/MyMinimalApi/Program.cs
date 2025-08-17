@@ -9,6 +9,8 @@ var builder = WebApplication.CreateBuilder(args);
 
 
 builder.Services.AddScoped<IAdministradorService, AdministradorService>();
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
 
 builder.Services.AddDbContext<DbContexto>(
     options =>
@@ -23,6 +25,7 @@ builder.Services.AddDbContext<DbContexto>(
 
 var app = builder.Build();
 
+
 app.MapGet("/", () => "Hello World!");
 app.MapPost("/login", ([FromBody] LoginDTO loginDTO, IAdministradorService administradorService) =>
 {
@@ -32,4 +35,6 @@ app.MapPost("/login", ([FromBody] LoginDTO loginDTO, IAdministradorService admin
 
 });
 
+app.UseSwagger();
+app.UseSwaggerUI();
 app.Run();

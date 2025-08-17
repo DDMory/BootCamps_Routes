@@ -14,7 +14,10 @@ Criação de uma API utilizando a técnica de Minimals APIs para o registro de v
 
 ## Linhas de Comando para instalação de dependencias
 
+Aviso: Lembre-se de fazer as alterações necessárias de versão para que as dependencias consigam se comunicar
+
 - Core: `dotnet add package Microsoft.EntityFrameworkCore --version 9.0.8`
 - Desing: ``dotnet add package Microsoft.EntityFrameworkCore.Design --version 9.0.8``
 - Tools: `dotnet add package Microsoft.EntityFrameworkCore.Tools --version 9.0.8`
 - MySql: `dotnet add package Pomelo.EntityFrameworkCore.MySql --version 8.0.3`
+- Swagger: ``dotnet add package Swashbuckle.AspNetCore.Swagger --version 9.0.3``
