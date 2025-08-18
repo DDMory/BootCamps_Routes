@@ -6,6 +6,7 @@ Criação de uma API utilizando a técnica de Minimals APIs para o registro de v
 
 - VSCode
 - PostMan
+- MySql
 
 ## Criação de Projeto Web Base
 
