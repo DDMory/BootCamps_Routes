@@ -34,9 +34,23 @@
               "icon": "lucide-file",
               "title": "README"
             }
+          },
+          {
+            "id": "bb8036341c8d9adf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "BootCamps/GFT_STARTER/EDICAO_7/Modulo 4 - APIs/Minimals/README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -183,16 +197,16 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "b358956b7478e120",
+  "active": "bb8036341c8d9adf",
   "lastOpenFiles": [
-    "BootCamps/Images/Pasted image 20250818002926.png",
-    "BootCamps/Images/Pasted image 20250818002903.png",
-    "BootCamps/Images/Pasted image 20250818002501.png",
-    "BootCamps/Images/Pasted image 20250818002750.png",
+    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 4 - APIs/Minimals/Images/Pasted image 20250818002419.png",
     "BootCamps/GFT_STARTER/EDICAO_7/Modulo 4 - APIs/Minimals/README.md",
+    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 4 - APIs/Minimals/Images/Pasted image 20250818002926.png",
+    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 4 - APIs/Minimals/Images/Pasted image 20250818002903.png",
+    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 4 - APIs/Minimals/Images/Pasted image 20250818002501.png",
+    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 4 - APIs/Minimals/Images/Pasted image 20250818002750.png",
     "Pasted image 20250818002753.png",
-    "BootCamps/Images",
-    "BootCamps/Images/Pasted image 20250818002419.png",
+    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 4 - APIs/Minimals/Images",
     "BootCamps/GFT_STARTER/EDICAO_7/Modulo 4 - APIs/Minimals/teste/Mocks/AdministradorServicoMock .cs",
     "BootCamps/GFT_STARTER/EDICAO_7/Modulo 4 - APIs/Minimals/teste/Mocks",
     "BootCamps/GFT_STARTER/EDICAO_7/Modulo 4 - APIs/Minimals/teste/Helpers/Setup.cs",
