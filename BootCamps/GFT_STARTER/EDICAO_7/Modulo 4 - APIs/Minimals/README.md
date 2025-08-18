@@ -22,3 +22,13 @@ Aviso: Lembre-se de fazer as alterações necessárias de versão para que as de
 - Tools: `dotnet add package Microsoft.EntityFrameworkCore.Tools --version 9.0.8`
 - MySql: `dotnet add package Pomelo.EntityFrameworkCore.MySql --version 8.0.3`
 - Swagger: ``dotnet add package Swashbuckle.AspNetCore.Swagger --version 9.0.3``
+
+## Resultados:
+
+### Administradores
+
+![[Pasted image 20250818002419.png]]![[Pasted image 20250818002750.png]]![[Pasted image 20250818002903.png]]![[Pasted image 20250818002926.png]]
+--- 
+
+![[Pasted image 20250818002501.png]]
+
