@@ -11,5 +11,9 @@ namespace MyMinimalApi.dominio.Interfaces
     {
         //List<Administrador> Login(LoginDTO loginDTO);
         Administrador? Login(LoginDTO loginDTO);
+        Administrador SalvarAdministrador(Administrador administrador);
+        List<Administrador> ListarTodos(int? pagina);
+
+        Administrador? BuscarPorId(int id);
     }
 }

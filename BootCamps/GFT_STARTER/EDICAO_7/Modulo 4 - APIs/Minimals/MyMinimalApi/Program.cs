@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using MyMinimalApi.dominio.DTOs;
 using MyMinimalApi.dominio.Entidades;
+using MyMinimalApi.dominio.Enuns;
 using MyMinimalApi.dominio.Interfaces;
 using MyMinimalApi.dominio.ModelsViews;
 using MyMinimalApi.dominio.Servicos;
@@ -39,6 +40,8 @@ app.MapGet("/", () => Results.Json(new Home())).WithTags("Home");
 #endregion Home
 
 #region Administradores
+
+#region PostDefault
 app.MapPost("/administradores/login", ([FromBody] LoginDTO loginDTO, IAdministradorService administradorService) =>
 {
     if (administradorService.Login(loginDTO) != null)
@@ -46,7 +49,82 @@ app.MapPost("/administradores/login", ([FromBody] LoginDTO loginDTO, IAdministra
     else return Results.Unauthorized();
 
 }).WithTags("Administradores");
+#endregion PostDefault
+
+#region Post
+app.MapPost("/administradores/", ([FromBody] AdministradorDTO administradorDTO, IAdministradorService administradorService) =>
+{
+    var validacoes = new ErrosValidate
+    {
+        Mensagens = new List<string>()
+    };
+
+    if (string.IsNullOrEmpty(administradorDTO.Email))
+        validacoes.Mensagens.Add("Email não pode ficar em branco");
+    if (string.IsNullOrEmpty(administradorDTO.Senha))
+        validacoes.Mensagens.Add("Senha não pode ficar em branco");
+    if (administradorDTO.Perfil == null)
+        validacoes.Mensagens.Add("O perfil não pode ficar em branco");
+
+
+    if (validacoes.Mensagens.Count() > 0)
+        return Results.BadRequest(validacoes);
+
+
+        var adm = new Administrador
+        {
+            Email = administradorDTO.Email,
+            Senha = administradorDTO.Senha,
+            Perfil = administradorDTO.Perfil.ToString() ?? Perfil.Editor.ToString()
+        };
+
+        administradorService.SalvarAdministrador(adm);
+
+    return Results.Created($"Administrador/{adm.Id}", adm);
+}).WithTags("Administradores");
+#endregion Post
+
+#region GetAll
+app.MapGet("/administradores", ([FromQuery] int? pagina, IAdministradorService administradorService) =>
+{
+    var adms = new List<AdministradorModelView>();
+    var administradores = administradorService.ListarTodos(pagina);
+
+    foreach (var administrador in administradores)
+    {
+        adms.Add(new AdministradorModelView
+        {
+            Id = administrador.Id,
+            Email = administrador.Email,
+            Perfil = administrador.Perfil
+        });
+    }
+
+    return Results.Ok(adms);
+
+}).WithTags("Administradores");
+#endregion GetAll
+
+#region GetById
+app.MapGet("/administradores/{Id}", ([FromRoute] int Id, IAdministradorService administradorService) =>
+{
+    var adm = administradorService.BuscarPorId(Id);
+
+    if (adm == null) return Results.NotFound();
+
+    return Results.Ok(new AdministradorModelView
+        {
+            Id = adm.Id,
+            Email = adm.Email,
+            Perfil = adm.Perfil
+        });;
+}).WithTags("Administradores");
+#endregion GetById
+
 #endregion Administradores
+
+
+
 
 #region Veiculos
 
