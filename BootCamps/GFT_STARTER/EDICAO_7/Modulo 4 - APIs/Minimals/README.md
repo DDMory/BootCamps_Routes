@@ -27,8 +27,12 @@ Aviso: Lembre-se de fazer as alterações necessárias de versão para que as de
 
 ### Administradores
 
-![[Pasted image 20250818002419.png]]![[Pasted image 20250818002750.png]]![[Pasted image 20250818002903.png]]![[Pasted image 20250818002926.png]]
+![[Pasted image 20250818002419.png]]
+![[Pasted image 20250818002750.png]]
+![[Pasted image 20250818002903.png]]
+![[Pasted image 20250818002926.png]]
 --- 
 
 ![[Pasted image 20250818002501.png]]
+
 
