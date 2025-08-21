@@ -25,14 +25,14 @@
             "id": "9607abf920194a96",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "BootCamps/GFT_STARTER/EDICAO_7/Modulo 4 - APIs/Minimals/MyMinimalApi/appsettings.json",
-                "bFile": "BootCamps/GFT_STARTER/EDICAO_7/Modulo 4 - APIs/Minimals/MyMinimalApi/appsettings.json",
-                "aRef": ""
+                "file": "BootCamps/GFT_STARTER/EDICAO_7/Modulo 5 - DataBases/README.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: appsettings.json"
+              "icon": "lucide-file",
+              "title": "README"
             }
           }
         ],
@@ -197,9 +197,9 @@
   },
   "active": "9607abf920194a96",
   "lastOpenFiles": [
+    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 5 - DataBases/Pasted image 20250820221553.png",
     "BootCamps/GFT_STARTER/EDICAO_7/Modulo 5 - DataBases/README.md",
-    "Pasted image 20250820221632.png",
-    "Pasted image 20250820221553.png",
+    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 5 - DataBases/Pasted image 20250820221632.png",
     "BootCamps/GFT_STARTER/EDICAO_7/Modulo 4 - APIs/Docker/README.md",
     "BootCamps/GFT_STARTER/EDICAO_7/Modulo 5 - DataBases",
     "BootCamps/GFT_STARTER/EDICAO_7/Modulo 4 - APIs/Minimals/README.md",
