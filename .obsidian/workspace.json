@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "README"
             }
+          },
+          {
+            "id": "9607abf920194a96",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "BootCamps/GFT_STARTER/EDICAO_7/Modulo 4 - APIs/Minimals/MyMinimalApi/appsettings.json",
+                "bFile": "BootCamps/GFT_STARTER/EDICAO_7/Modulo 4 - APIs/Minimals/MyMinimalApi/appsettings.json",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: appsettings.json"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "11e0a0023c8ae7b5",
@@ -151,28 +165,44 @@
               "icon": "lucide-list",
               "title": "Sumário de README"
             }
+          },
+          {
+            "id": "13582e9cf1bdba8f",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Criar nova base": false,
       "switcher:Abrir a troca rápida": false,
       "graph:Abrir visualização em gráfico": false,
       "canvas:Criar novo canvas": false,
       "daily-notes:Abrir a nota de hoje": false,
       "templates:Inserir modelo": false,
-      "command-palette:Abrir paleta de comandos": false
+      "command-palette:Abrir paleta de comandos": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bb8036341c8d9adf",
+  "active": "9607abf920194a96",
   "lastOpenFiles": [
-    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 4 - APIs/Minimals/README.md",
+    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 5 - DataBases/README.md",
+    "Pasted image 20250820221632.png",
+    "Pasted image 20250820221553.png",
     "BootCamps/GFT_STARTER/EDICAO_7/Modulo 4 - APIs/Docker/README.md",
+    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 5 - DataBases",
+    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 4 - APIs/Minimals/README.md",
     "BootCamps/GFT_STARTER/EDICAO_7/Modulo 4 - APIs/Docker",
     "BootCamps/GFT_STARTER/EDICAO_7/Modulo 4 - APIs/Minimals/Images/Pasted image 20250818002419.png",
     "BootCamps/GFT_STARTER/EDICAO_7/Modulo 4 - APIs/Minimals/Images/Pasted image 20250818002926.png",
@@ -188,7 +218,6 @@
     "BootCamps/GFT_STARTER/EDICAO_7/Modulo 4 - APIs/Minimals/teste/Requests/AdministradorRequestTest.cs",
     "BootCamps/GFT_STARTER/EDICAO_7/Modulo 4 - APIs/Minimals/teste/Requests",
     "BootCamps/GFT_STARTER/EDICAO_7/Modulo 4 - APIs/Minimals/teste/Domain/Services/AdministradorServiceTeste.cs",
-    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 4 - APIs/Minimals/teste/Domain/Services/AdministradorService",
     "BootCamps/GFT_STARTER/EDICAO_7/Modulo 4 - APIs/WebApi/README.md",
     "BootCamps/GFT_STARTER/EDICAO_7/Modulo 3 - Programação_Orientada_Objetos/Abstratas_Interfaces/README.md",
     "BootCamps/GFT_STARTER/EDICAO_7/Modulo 4 - APIs/README.md",
@@ -197,9 +226,7 @@
     "BootCamps/GFT_STARTER/EDICAO_7/Modulo 3 - Programação_Orientada_Objetos/Desafios/Desafio2/trilha-net-poo-desafio/README.md",
     "BootCamps/GFT_STARTER/EDICAO_7/Modulo 3 - Programação_Orientada_Objetos/Desafios/Desafio2/trilha-net-poo-desafio/Imagens/diagrama.png",
     "BootCamps/GFT_STARTER/EDICAO_7/Modulo 3 - Programação_Orientada_Objetos/Desafios/Desafio1/README.md",
-    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 3 - Programação_Orientada_Objetos/Desafios/Desafio1/diagrama_classe_hotel.png",
     "BootCamps/GFT_STARTER/EDICAO_7/Modulo 3 - Programação_Orientada_Objetos/Desafio/Desafio1/README.md",
-    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 3 - Programação_Orientada_Objetos/Desafio/Desafio1/diagrama_classe_hotel.png",
     "BootCamps/GFT_STARTER/EDICAO_7/Modulo 3 - Programação_Orientada_Objetos/Colecoes_Excecoes/README.md",
     "BootCamps/GFT_STARTER/EDICAO_7/Modulo 3 - Programação_Orientada_Objetos/Manipulando_Vetores/README.md",
     "BootCamps/GFT_STARTER/EDICAO_7/Modulo 3 - Programação_Orientada_Objetos/Propriedades_Metodos_Construtores/README.md",
@@ -214,8 +241,6 @@
     "BootCamps/GFT_STARTER/EDICAO_7/Modulo 1 - Principios de Desenvolvimento/Criando_Primeiro_Projeto/README.md",
     "BootCamps/GFT_STARTER/EDICAO_7/Modulo 1 - Principios de Desenvolvimento/README.md",
     "BootCamps/GFT_STARTER/EDICAO_7/Modulo 1 -/Criando_Primeiro_Projeto/README.md",
-    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 1 -/README.md",
-    "BootCamps/GFT_STARTER/EDICAO_7/Criando_Primeiro_Projeto/README.md",
-    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 1/Criando_Primeiro_Projeto/README.md"
+    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 1 -/README.md"
   ]
 }
