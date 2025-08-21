@@ -7,5 +7,6 @@ Em um banco de dados, somos capazes de utilizar comandos SQL para a realização
 - R - READ (Select)
 - U - UPDATE (Update)
 - D - DELETE (Delete)
+
 Com EF, somos capazes de realizar uma tradução de uma classe, escrita na linguagem C#, para comandos SQL. Onde temos uma classe, agora vamos ter seu reflexo em tabela.
 ![](Images/Pasted%20image%2020250821203433.png)
