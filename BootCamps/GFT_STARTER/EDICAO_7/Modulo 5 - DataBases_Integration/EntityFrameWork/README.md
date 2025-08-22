@@ -15,9 +15,9 @@ Apesar do EF gerar os comando SQL de maneira dinâmica, os comandos de geração
 
 Para isso EF é capaz de realizar mapeamentos das classes para transformar elas em tabelas, essa operação é chamada ***`Migrations`***. Segue a sintaxe de sua utilização: `dotnet-ef migrations add <Nome_Migration>`
 
-|         Terminal         |  Estrutura de Arquivos  |
-| :----------------------: | :---------------------: |
-| ![](Images/terminal.png) | ![](arvoreArquivos.png) |
+|         Terminal         |     Estrutura de Arquivos      |
+| :----------------------: | :----------------------------: |
+| ![](Images/terminal.png) | ![](Images/arvoreArquivos.png) |
 
 Após qualquer adição de uma migration, é necessário executar o comando `dotnet-ef database update` para que as alterações feitas reflitam no banco de dados.
 
