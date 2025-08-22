@@ -34,7 +34,7 @@ Após qualquer adição de uma migration, é necessário executar o comando `dot
 | :----: | :----: |
 |  POST  | CREATE |
 |  GET   |  READ  |
-| UPDATE | UPDATE |
+| PUT | UPDATE |
 | DELETE | DELETE |
 
 </div>  
