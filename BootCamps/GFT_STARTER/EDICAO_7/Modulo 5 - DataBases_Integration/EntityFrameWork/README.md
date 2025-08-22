@@ -26,6 +26,22 @@ Após qualquer adição de uma migration, é necessário executar o comando `dot
 | :----------------------------: | :-------------------: |
 | ![](Images/databaseUpdate.png) | ![](Images/mysql.png) |
 
+É comum observar que ao usar APIs, usamos métodos HTTPs para realizar nossas operações ( atualizar, criar, deletar, etc). Tais operações seguem as operações que compõem o CRUD.  
+
+<div align="center">
+
+|  HTTP  |  CRUD  |
+| :----: | :----: |
+|  POST  | CREATE |
+|  GET   |  READ  |
+| UPDATE | UPDATE |
+| DELETE | DELETE |
+
+</div>  
+
+Executando o código esse será o resultado.  
+
+![](Images/resultado.png)
 ## Criação de projeto padrão
 
 Para a criação de um projeto padrão, recomenda-se dar uma olhada em [Modulo 4 - APIs](https://github.com/DDMory/BootCamps_Routes/tree/main/BootCamps/GFT_STARTER/EDICAO_7/Modulo%204%20-%20APIs)
@@ -34,3 +50,4 @@ Para a criação de um projeto padrão, recomenda-se dar uma olhada em [Modulo 4
 
 - EF Desing: ``dotnet add package Microsoft.EntityFrameworkCore.Design``
 - EF SqlServer: ``dotnet add package Microsoft.EntityFrameworkCore.SqlServer``
+- Swagger: `dotnet add package Swashbuckle.AspNetCore`
