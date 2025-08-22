@@ -49,5 +49,5 @@ Para a criação de um projeto padrão, recomenda-se dar uma olhada em [Modulo 4
 ### Pacotes Utilizados:
 
 - EF Desing: ``dotnet add package Microsoft.EntityFrameworkCore.Design``
-- EF SqlServer: ``dotnet add package Microsoft.EntityFrameworkCore.SqlServer``
+- Pomelo Mysql: ``dotnet add package Pomelo.EntityFrameworkCore.MySql``
 - Swagger: `dotnet add package Swashbuckle.AspNetCore`
