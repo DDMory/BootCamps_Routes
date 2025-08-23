@@ -11,14 +11,12 @@
             "id": "e98e233b9554456e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "BootCamps/GFT_STARTER/EDICAO_7/Modulo 5 - DataBases_Integration/EntityFrameWork/README.md",
-                "mode": "source",
-                "source": false
+                "file": "BootCamps/GFT_STARTER/EDICAO_7/Modulo 5 - DataBases_Integration/EntityFrameWork/Images/arvoreArquivos.png"
               },
-              "icon": "lucide-file",
-              "title": "README"
+              "icon": "lucide-image",
+              "title": "arvoreArquivos"
             }
           }
         ]
@@ -182,9 +180,9 @@
   },
   "active": "e98e233b9554456e",
   "lastOpenFiles": [
+    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 5 - DataBases_Integration/EntityFrameWork/README.md",
     "BootCamps/GFT_STARTER/EDICAO_7/Modulo 5 - DataBases_Integration/EntityFrameWork/Images/terminal.png",
     "BootCamps/GFT_STARTER/EDICAO_7/Modulo 5 - DataBases_Integration/EntityFrameWork/Images/resultado.png",
-    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 5 - DataBases_Integration/EntityFrameWork/README.md",
     "BootCamps/GFT_STARTER/EDICAO_7/Modulo 5 - DataBases_Integration/EntityFrameWork/ModuloAPI/bin/Debug/net9.0/Microsoft.Extensions.Caching.Memory.dll",
     "BootCamps/GFT_STARTER/EDICAO_7/Modulo 5 - DataBases_Integration/EntityFrameWork/ModuloAPI/bin/Debug/net9.0/Microsoft.Extensions.Caching.Abstractions.dll",
     "BootCamps/GFT_STARTER/EDICAO_7/Modulo 5 - DataBases_Integration/EntityFrameWork/ModuloAPI/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Abstractions.dll",

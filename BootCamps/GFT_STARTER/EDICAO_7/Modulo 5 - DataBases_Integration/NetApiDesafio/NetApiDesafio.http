@@ -1,0 +1,6 @@
+@NetApiDesafio_HostAddress = http://localhost:5071
+
+GET {{NetApiDesafio_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

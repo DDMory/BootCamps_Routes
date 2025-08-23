@@ -109,3 +109,5 @@ $RECYCLE.BIN/
 
 # End of https://www.toptal.com/developers/gitignore/api/obsidian,windows,linux,macos,dotnetcore,visualstudiocode
 /BootCamps/GFT_STARTER/EDICAO_7/Modulo 4 - APIs/Minimals/MyMinimalApi/appsettings.json
+BootCamps/GFT_STARTER/EDICAO_7/Modulo 5 - DataBases_Integration/NetApiDesafio/appsettings.json
+BootCamps/GFT_STARTER/EDICAO_7/Modulo 5 - DataBases_Integration/NetApiDesafio/appsettings.Development.json
