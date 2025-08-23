@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "96fca632d17114e2",
+        "id": "45d3a43b4e8cc5f2",
         "type": "tabs",
         "children": [
           {
-            "id": "e98e233b9554456e",
+            "id": "2ba9b9f73ed9cb80",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "BootCamps/GFT_STARTER/EDICAO_7/Modulo 5 - DataBases_Integration/EntityFrameWork/Images/arvoreArquivos.png"
+                "file": "BootCamps/GFT_STARTER/EDICAO_7/Modulo 6 - Cloud_Azure/README.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "arvoreArquivos"
+              "icon": "lucide-file",
+              "title": "README"
             }
           }
         ]
@@ -178,8 +180,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e98e233b9554456e",
+  "active": "2ba9b9f73ed9cb80",
   "lastOpenFiles": [
+    "Sem título 1.base",
+    "Sem título.base",
+    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 6 - Cloud_Azure/README.md",
+    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 5 - DataBases_Integration/EntityFrameWork/Images/arvoreArquivos.png",
+    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 6 - Cloud_Azure",
     "BootCamps/GFT_STARTER/EDICAO_7/Modulo 5 - DataBases_Integration/EntityFrameWork/README.md",
     "BootCamps/GFT_STARTER/EDICAO_7/Modulo 5 - DataBases_Integration/EntityFrameWork/Images/terminal.png",
     "BootCamps/GFT_STARTER/EDICAO_7/Modulo 5 - DataBases_Integration/EntityFrameWork/Images/resultado.png",
@@ -191,14 +198,11 @@
     "BootCamps/GFT_STARTER/EDICAO_7/Modulo 5 - DataBases_Integration/EntityFrameWork/ModuloAPI/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll",
     "BootCamps/GFT_STARTER/EDICAO_7/Modulo 5 - DataBases_Integration/EntityFrameWork/ModuloAPI/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll",
     "BootCamps/GFT_STARTER/EDICAO_7/Modulo 5 - DataBases_Integration/EntityFrameWork/ModuloAPI/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.resources.dll",
-    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 5 - DataBases_Integration/EntityFrameWork/ModuloAPI/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
-    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 5 - DataBases_Integration/EntityFrameWork/ModuloAPI/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll",
     "BootCamps/GFT_STARTER/EDICAO_7/Modulo 5 - DataBases_Integration/EntityFrameWork/Images/mysql.png",
     "BootCamps/GFT_STARTER/EDICAO_7/Modulo 4 - APIs/Docker/README.md",
     "Images/mysql.md",
     "BootCamps/GFT_STARTER/EDICAO_7/Modulo 5 - DataBases_Integration/EntityFrameWork/Images/databaseUpdate.png",
     "README.md",
-    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 5 - DataBases_Integration/EntityFrameWork/Images/arvoreArquivos.png",
     "BootCamps/GFT_STARTER/EDICAO_7/Modulo 5 - DataBases_Integration/EntityFrameWork/Images/Pasted image 20250821203433.png",
     "BootCamps/GFT_STARTER/EDICAO_7/Modulo 4 - APIs/WebApi/README.md",
     "BootCamps/GFT_STARTER/EDICAO_7/Modulo 4 - APIs/Minimals/README.md",
@@ -223,7 +227,6 @@
     "BootCamps/GFT_STARTER/EDICAO_7/Modulo 2 - Sintaxe_Basica/Operadores_Aritmeticos/README.md",
     "BootCamps/GFT_STARTER/EDICAO_7/Modulo 2 - Sintaxe_Basica/Sintaxe_Identação/README.md",
     "BootCamps/GFT_STARTER/EDICAO_7/Modulo 1 - Principios_de_Desenvolvimento/Criando_Primeiro_Projeto/README.md",
-    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 1 - Principios_de_Desenvolvimento/README.md",
-    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 1 - Principios de Desenvolvimento/Criando_Primeiro_Projeto/README.md"
+    "BootCamps/GFT_STARTER/EDICAO_7/Modulo 1 - Principios_de_Desenvolvimento/README.md"
   ]
 }
