@@ -25,40 +25,49 @@ namespace NetApiDesafio.Controllers
         public IActionResult ObterPorId(int id)
         {
             // TODO: Buscar o Id no banco utilizando o EF
+            var tarefa = _context.Tarefas.Find(id);
             // TODO: Validar o tipo de retorno. Se não encontrar a tarefa, retornar NotFound,
+            if (tarefa == null) return NotFound();
             // caso contrário retornar OK com a tarefa encontrada
-            return Ok();
+            return Ok(tarefa);
         }
 
         [HttpGet("ObterTodos")]
         public IActionResult ObterTodos()
         {
             // TODO: Buscar todas as tarefas no banco utilizando o EF
-            return Ok();
+            var query = _context.Tarefas.AsQueryable();
+            var tarefas = query.ToList();
+
+            return Ok(tarefas);
+
         }
 
         [HttpGet("ObterPorTitulo")]
-        public IActionResult ObterPorTitulo(string titulo)
+        public IActionResult ObterPorTitulo(string? titulo)
         {
             // TODO: Buscar  as tarefas no banco utilizando o EF, que contenha o titulo recebido por parâmetro
+            if (string.IsNullOrEmpty(titulo)) return NotFound();
+
+            var tarefas = _context.Tarefas.Where(x => x.Titulo.Contains(titulo)).ToList();
             // Dica: Usar como exemplo o endpoint ObterPorData
-            return Ok();
+            return Ok(tarefas);
         }
 
         [HttpGet("ObterPorData")]
         public IActionResult ObterPorData(DateTime data)
         {
-            var tarefa = _context.Tarefas.Where(x => x.Data.Date == data.Date);
-            return Ok(tarefa);
+            var tarefas = _context.Tarefas.Where(x => x.Data.Date == data.Date).ToList();
+            return Ok(tarefas);
         }
 
         [HttpGet("ObterPorStatus")]
-        public IActionResult ObterPorStatus(EnumStatusTarefa status)
+        public IActionResult ObterPorStatus(EnumStatusTarefa status = EnumStatusTarefa.Pendente)
         {
             // TODO: Buscar  as tarefas no banco utilizando o EF, que contenha o status recebido por parâmetro
             // Dica: Usar como exemplo o endpoint ObterPorData
-            var tarefa = _context.Tarefas.Where(x => x.Status == status);
-            return Ok(tarefa);
+            var tarefas = _context.Tarefas.Where(x => x.Status == status).ToList();
+            return Ok(tarefas);
         }
 
         [HttpPost]
@@ -70,6 +79,7 @@ namespace NetApiDesafio.Controllers
             // TODO: Adicionar a tarefa recebida no EF e salvar as mudanças (save changes)
             _context.Add(tarefa);
             _context.SaveChanges();
+
             return CreatedAtAction(nameof(ObterPorId), new { id = tarefa.Id }, tarefa);
         }
 
@@ -85,8 +95,15 @@ namespace NetApiDesafio.Controllers
                 return BadRequest(new { Erro = "A data da tarefa não pode ser vazia" });
 
             // TODO: Atualizar as informações da variável tarefaBanco com a tarefa recebida via parâmetro
+            tarefaBanco.Titulo = tarefa.Titulo;
+            tarefaBanco.Descricao = tarefa.Descricao;
+            tarefaBanco.Data = tarefa.Data;
+            tarefaBanco.Status = tarefa.Status;
             // TODO: Atualizar a variável tarefaBanco no EF e salvar as mudanças (save changes)
-            return Ok();
+            _context.Tarefas.Update(tarefaBanco);
+            _context.SaveChanges();
+
+            return Ok(tarefaBanco);
         }
 
         [HttpDelete("{id}")]
@@ -98,6 +115,8 @@ namespace NetApiDesafio.Controllers
                 return NotFound();
 
             // TODO: Remover a tarefa encontrada através do EF e salvar as mudanças (save changes)
+            _context.Tarefas.Remove(tarefaBanco);
+            _context.SaveChanges();
             return NoContent();
         }
     }
