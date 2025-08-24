@@ -13,7 +13,7 @@ A sua aplicação deverá ser do tipo Web API ou MVC, fique a vontade para imple
 
 A sua classe principal, a classe de tarefa, deve ser a seguinte:
 
-![Diagrama da classe Tarefa](GFT_STARTER/EDICAO_7/Modulo%205%20-%20DataBases_Integration/NetApiDesafio/images/diagrama.png)
+![Diagrama da classe Tarefa](GFT_STARTER/Modulo%205%20-%20DataBases_Integration/NetApiDesafio/images/diagrama.png)
 
 Não se esqueça de gerar a sua migration para atualização no banco de dados.
 
